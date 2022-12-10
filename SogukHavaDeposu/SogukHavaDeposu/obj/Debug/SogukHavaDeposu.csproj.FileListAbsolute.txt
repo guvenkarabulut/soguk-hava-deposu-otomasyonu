@@ -1,0 +1,166 @@
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.dll.config
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.pdb
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.exe
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.exe.config
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.rsp
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csi.exe
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csi.rsp
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.AppContext.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.exe
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.exe.config
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.rsp
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.csproj.CopyComplete
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.pdb
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Helpers.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Mvc.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Razor.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Helpers.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Mvc.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Razor.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\source\repos\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.dll.config
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.pdb
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.exe
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csi.exe
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.csprojAssemblyReference.cache
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.csproj.CopyComplete
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.pdb
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.EF6.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.Linq.dll
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.xml
+C:\Users\User\Desktop\SQLite ile\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.dll.config
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.dll.config
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\SogukHavaDeposu.pdb
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.exe
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csi.exe
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.EF6.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.Linq.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Data.SQLite.dll.config
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.csprojAssemblyReference.cache
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.csproj.CopyComplete
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.dll
+C:\Users\User\Desktop\SogukHavaDeposu\SogukHavaDeposu\obj\Debug\SogukHavaDeposu.pdb

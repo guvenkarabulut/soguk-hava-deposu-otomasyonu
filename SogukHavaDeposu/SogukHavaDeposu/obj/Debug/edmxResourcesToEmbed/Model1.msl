@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SogukHavaModelStoreContainer" CdmEntityContainer="SogukHavaEntities">
+    <EntitySetMapping Name="calisanTablo">
+      <EntityTypeMapping TypeName="SogukHavaModel.calisanTablo">
+        <MappingFragment StoreEntitySet="calisanTablo">
+          <ScalarProperty Name="calisanID" ColumnName="calisanID" />
+          <ScalarProperty Name="calisanAd" ColumnName="calisanAd" />
+          <ScalarProperty Name="calisanSoyad" ColumnName="calisanSoyad" />
+          <ScalarProperty Name="calisanTCNo" ColumnName="calisanTCNo" />
+          <ScalarProperty Name="calisanTel" ColumnName="calisanTel" />
+          <ScalarProperty Name="calisanMail" ColumnName="calisanMail" />
+          <ScalarProperty Name="calisanDogumTarihi" ColumnName="calisanDogumTarihi" />
+          <ScalarProperty Name="calisanCinsiyet" ColumnName="calisanCinsiyet" />
+          <ScalarProperty Name="calisanPozisyon" ColumnName="calisanPozisyon" />
+          <ScalarProperty Name="calisanEgitimDurumu" ColumnName="calisanEgitimDurumu" />
+          <ScalarProperty Name="calisanIl" ColumnName="calisanIl" />
+          <ScalarProperty Name="calisanIlce" ColumnName="calisanIlce" />
+          <ScalarProperty Name="calisanAdres" ColumnName="calisanAdres" />
+          <ScalarProperty Name="aktifMi" ColumnName="aktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kullanici">
+      <EntityTypeMapping TypeName="SogukHavaModel.kullanici">
+        <MappingFragment StoreEntitySet="kullanici">
+          <ScalarProperty Name="kullaniciID" ColumnName="kullaniciID" />
+          <ScalarProperty Name="kullaniciAdi" ColumnName="kullaniciAdi" />
+          <ScalarProperty Name="kullaniciSifre" ColumnName="kullaniciSifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stokGiris">
+      <EntityTypeMapping TypeName="SogukHavaModel.stokGiris">
+        <MappingFragment StoreEntitySet="stokGiris">
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="stokGirisID" ColumnName="stokGirisID" />
+          <ScalarProperty Name="stokAd" ColumnName="stokAd" />
+          <ScalarProperty Name="stokMiktarı" ColumnName="stokMiktarı" />
+          <ScalarProperty Name="stokBirim" ColumnName="stokBirim" />
+          <ScalarProperty Name="stokGirisTarihi" ColumnName="stokGirisTarihi" />
+          <ScalarProperty Name="stokUrunKodu" ColumnName="stokUrunKodu" />
+          <ScalarProperty Name="aktifMi" ColumnName="aktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SogukHavaModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="arac">
+      <EntityTypeMapping TypeName="SogukHavaModel.arac">
+        <MappingFragment StoreEntitySet="arac">
+          <ScalarProperty Name="calisanNo" ColumnName="calisanNo" />
+          <ScalarProperty Name="aracKapasiteKasa" ColumnName="aracKapasiteKasa" />
+          <ScalarProperty Name="aracKapasiteKg" ColumnName="aracKapasiteKg" />
+          <ScalarProperty Name="aracKapasiteTon" ColumnName="aracKapasiteTon" />
+          <ScalarProperty Name="aracModel" ColumnName="aracModel" />
+          <ScalarProperty Name="aracMarka" ColumnName="aracMarka" />
+          <ScalarProperty Name="durumu" ColumnName="durumu" />
+          <ScalarProperty Name="aracPlaka" ColumnName="aracPlaka" />
+          <ScalarProperty Name="aracNo" ColumnName="aracNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="musteri">
+      <EntityTypeMapping TypeName="SogukHavaModel.musteri">
+        <MappingFragment StoreEntitySet="musteri">
+          <ScalarProperty Name="musteriCinsiyet" ColumnName="musteriCinsiyet" />
+          <ScalarProperty Name="aktifMi" ColumnName="aktifMi" />
+          <ScalarProperty Name="musteriSilmeTarihi" ColumnName="musteriSilmeTarihi" />
+          <ScalarProperty Name="musterikayitTarihi" ColumnName="musterikayitTarihi" />
+          <ScalarProperty Name="musteriEPosta" ColumnName="musteriEPosta" />
+          <ScalarProperty Name="musteriCepTel" ColumnName="musteriCepTel" />
+          <ScalarProperty Name="musteriTC" ColumnName="musteriTC" />
+          <ScalarProperty Name="musteriSoyad" ColumnName="musteriSoyad" />
+          <ScalarProperty Name="musteriAd" ColumnName="musteriAd" />
+          <ScalarProperty Name="musteriID" ColumnName="musteriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="siparis">
+      <EntityTypeMapping TypeName="SogukHavaModel.siparis">
+        <MappingFragment StoreEntitySet="siparis">
+          <ScalarProperty Name="siparisss" ColumnName="siparisss" />
+          <ScalarProperty Name="siparisTarih" ColumnName="siparisTarih" />
+          <ScalarProperty Name="stokNo" ColumnName="stokNo" />
+          <ScalarProperty Name="musteriNo" ColumnName="musteriNo" />
+          <ScalarProperty Name="aracNo" ColumnName="aracNo" />
+          <ScalarProperty Name="siparisNo" ColumnName="siparisNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="anaStok">
+      <EntityTypeMapping TypeName="SogukHavaModel.anaStok">
+        <MappingFragment StoreEntitySet="anaStok">
+          <ScalarProperty Name="anaStokKodu" ColumnName="anaStokKodu" />
+          <ScalarProperty Name="anaStokBirimFiyat" ColumnName="anaStokBirimFiyat" />
+          <ScalarProperty Name="anaStokMiktar" ColumnName="anaStokMiktar" />
+          <ScalarProperty Name="anaStokAD" ColumnName="anaStokAD" />
+          <ScalarProperty Name="anaStokID" ColumnName="anaStokID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="satis">
+      <EntityTypeMapping TypeName="SogukHavaModel.satis">
+        <MappingFragment StoreEntitySet="satis">
+          <ScalarProperty Name="satisTarihi" ColumnName="satisTarihi" />
+          <ScalarProperty Name="satisToplamFiyat" ColumnName="satisToplamFiyat" />
+          <ScalarProperty Name="satisBirimFiyat" ColumnName="satisBirimFiyat" />
+          <ScalarProperty Name="satisMiktar" ColumnName="satisMiktar" />
+          <ScalarProperty Name="satisUrunKodu" ColumnName="satisUrunKodu" />
+          <ScalarProperty Name="satisUrunAdi" ColumnName="satisUrunAdi" />
+          <ScalarProperty Name="satisID" ColumnName="satisID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

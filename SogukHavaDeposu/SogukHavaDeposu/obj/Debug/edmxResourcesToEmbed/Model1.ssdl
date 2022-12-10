@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Alias="Self" Namespace="SogukHavaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012">
+  <EntityType Name="anaStok">
+    <Key>
+      <PropertyRef Name="anaStokID" />
+    </Key>
+    <Property Name="anaStokID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="anaStokAD" MaxLength="50" Type="nvarchar" />
+    <Property Name="anaStokMiktar" MaxLength="50" Type="nvarchar" />
+    <Property Name="anaStokBirimFiyat" MaxLength="50" Type="nvarchar" />
+    <Property Name="anaStokKodu" MaxLength="50" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="arac">
+    <Key>
+      <PropertyRef Name="aracNo" />
+    </Key>
+    <Property Name="aracNo" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="aracPlaka" MaxLength="50" Type="nvarchar" />
+    <Property Name="durumu" MaxLength="50" Type="nvarchar" />
+    <Property Name="aracMarka" MaxLength="50" Type="nvarchar" />
+    <Property Name="aracModel" MaxLength="50" Type="nvarchar" />
+    <Property Name="aracKapasiteTon" MaxLength="50" Type="nvarchar" />
+    <Property Name="aracKapasiteKg" MaxLength="50" Type="nvarchar" />
+    <Property Name="aracKapasiteKasa" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanNo" Type="int" />
+  </EntityType>
+  <EntityType Name="calisanTablo">
+    <Key>
+      <PropertyRef Name="calisanID" />
+    </Key>
+    <Property Name="calisanID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="calisanAd" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanSoyad" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanTCNo" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanTel" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanMail" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanDogumTarihi" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanCinsiyet" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanPozisyon" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanEgitimDurumu" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanIl" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanIlce" MaxLength="50" Type="nvarchar" />
+    <Property Name="calisanAdres" MaxLength="50" Type="nvarchar" />
+    <Property Name="aktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="kullanici">
+    <Key>
+      <PropertyRef Name="kullaniciID" />
+    </Key>
+    <Property Name="kullaniciID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="kullaniciAdi" MaxLength="10" Type="nchar" />
+    <Property Name="kullaniciSifre" MaxLength="10" Type="nchar" />
+  </EntityType>
+  <EntityType Name="musteri">
+    <Key>
+      <PropertyRef Name="musteriID" />
+    </Key>
+    <Property Name="musteriID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="musteriAd" MaxLength="50" Type="nvarchar" />
+    <Property Name="musteriSoyad" MaxLength="50" Type="nvarchar" />
+    <Property Name="musteriTC" MaxLength="50" Type="nvarchar" />
+    <Property Name="musteriCepTel" MaxLength="50" Type="nvarchar" />
+    <Property Name="musteriEPosta" MaxLength="50" Type="nvarchar" />
+    <Property Name="musterikayitTarihi" MaxLength="50" Type="nvarchar" />
+    <Property Name="musteriCinsiyet" MaxLength="10" Type="nvarchar" />
+    <Property Name="musteriSilmeTarihi" MaxLength="50" Type="nvarchar" />
+    <Property Name="aktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="satis">
+    <Key>
+      <PropertyRef Name="satisID" />
+    </Key>
+    <Property Name="satisID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="satisUrunAdi" MaxLength="50" Type="nvarchar" />
+    <Property Name="satisUrunKodu" MaxLength="50" Type="nvarchar" />
+    <Property Name="satisMiktar" MaxLength="50" Type="nvarchar" />
+    <Property Name="satisBirimFiyat" MaxLength="50" Type="nvarchar" />
+    <Property Name="satisToplamFiyat" MaxLength="50" Type="nvarchar" />
+    <Property Name="satisTarihi" MaxLength="50" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="siparis">
+    <Key>
+      <PropertyRef Name="siparisNo" />
+    </Key>
+    <Property Name="siparisNo" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="siparisss" Type="int" />
+    <Property Name="aracNo" Type="int" />
+    <Property Name="musteriNo" Type="int" />
+    <Property Name="stokNo" Type="int" />
+    <Property Name="siparisTarih" MaxLength="50" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="stokGiris">
+    <Key>
+      <PropertyRef Name="stokGirisID" />
+    </Key>
+    <Property Name="stokGirisID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="stokAd" MaxLength="50" Type="nvarchar" />
+    <Property Name="stokMiktarı" MaxLength="50" Type="nvarchar" />
+    <Property Name="stokBirim" MaxLength="50" Type="nvarchar" />
+    <Property Name="stokGirisTarihi" MaxLength="200" Type="nvarchar" />
+    <Property Name="aktifMi" Type="bit" />
+    <Property Name="stokUrunKodu" MaxLength="50" Type="nvarchar" />
+    <Property Name="fiyat" MaxLength="50" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Nullable="false" MaxLength="128" Type="nvarchar" />
+    <Property Name="principal_id" Nullable="false" Type="int" />
+    <Property Name="diagram_id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_arac_calisanTablo">
+    <End Type="Self.calisanTablo" Multiplicity="0..1" Role="calisanTablo" />
+    <End Type="Self.arac" Multiplicity="*" Role="arac" />
+    <ReferentialConstraint>
+      <Principal Role="calisanTablo">
+        <PropertyRef Name="calisanID" />
+      </Principal>
+      <Dependent Role="arac">
+        <PropertyRef Name="calisanNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_arac">
+    <End Type="Self.arac" Multiplicity="0..1" Role="arac" />
+    <End Type="Self.siparis" Multiplicity="*" Role="siparis" />
+    <ReferentialConstraint>
+      <Principal Role="arac">
+        <PropertyRef Name="aracNo" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="aracNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_musteri">
+    <End Type="Self.musteri" Multiplicity="0..1" Role="musteri" />
+    <End Type="Self.siparis" Multiplicity="*" Role="siparis" />
+    <ReferentialConstraint>
+      <Principal Role="musteri">
+        <PropertyRef Name="musteriID" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="musteriNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_stokGiris">
+    <End Type="Self.stokGiris" Multiplicity="0..1" Role="stokGiris" />
+    <End Type="Self.siparis" Multiplicity="*" Role="siparis" />
+    <ReferentialConstraint>
+      <Principal Role="stokGiris">
+        <PropertyRef Name="stokGirisID" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="stokNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SogukHavaModelStoreContainer">
+    <EntitySet Name="anaStok" EntityType="Self.anaStok" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="arac" EntityType="Self.arac" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="calisanTablo" EntityType="Self.calisanTablo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="kullanici" EntityType="Self.kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="musteri" EntityType="Self.musteri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="satis" EntityType="Self.satis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="siparis" EntityType="Self.siparis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stokGiris" EntityType="Self.stokGiris" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_arac_calisanTablo" Association="Self.FK_arac_calisanTablo">
+      <End EntitySet="calisanTablo" Role="calisanTablo" />
+      <End EntitySet="arac" Role="arac" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_arac" Association="Self.FK_siparis_arac">
+      <End EntitySet="arac" Role="arac" />
+      <End EntitySet="siparis" Role="siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_musteri" Association="Self.FK_siparis_musteri">
+      <End EntitySet="musteri" Role="musteri" />
+      <End EntitySet="siparis" Role="siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_stokGiris" Association="Self.FK_siparis_stokGiris">
+      <End EntitySet="stokGiris" Role="stokGiris" />
+      <End EntitySet="siparis" Role="siparis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

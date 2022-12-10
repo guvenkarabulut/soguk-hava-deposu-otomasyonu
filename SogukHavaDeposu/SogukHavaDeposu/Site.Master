@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SogukHavaDeposu.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition sidebar-mini">
+        <form id="form1" runat="server">
+
+<div class="wrapper">
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <ul class="navbar-nav">
+
+            <asp:ContentPlaceHolder ID="ustbar" runat="server">
+    </asp:ContentPlaceHolder>
+
+    </ul>
+  </nav>
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a href="index3.html" class="brand-link">
+      <span class="brand-text font-weight-light">Soğuk Hava Deposu</span>
+    </a>
+    <div class="sidebar">
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">  
+
+
+            <li class="nav-item">
+            <a href="calisan.aspx" class="nav-link">
+              <i class="fas fa-user nav-icon"></i>
+              <p>
+                Çalışan
+              </p>
+            </a>
+          </li>
+                      <li class="nav-item">
+            <a href="stok.aspx" class="nav-link">
+              <i class="fas fa-industry nav-icon"></i>
+              <p>
+                Stok
+              </p>
+            </a>
+          </li>
+                <li class="nav-item">
+            <a href="aracanasayfa.aspx" class="nav-link">
+              <i class="fas fa-truck nav-icon"></i>
+              <p>
+                Araç
+              </p>
+            </a>
+          </li>
+                            <li class="nav-item">
+            <a href="musterianasayfa.aspx" class="nav-link">
+              <i class="fas fa-users nav-icon"></i>
+              <p>
+                Müşteri
+              </p>
+            </a>
+          </li>
+                                        <li class="nav-item">
+            <a href="siparisana.aspx" class="nav-link">
+              <i class="fas  fa-shopping-cart nav-icon"></i>
+              <p>
+                Sipariş
+              </p>
+            </a>
+          </li>
+                                                    <li class="nav-item">
+            <a href="satisyap.aspx" class="nav-link">
+              <i class="fas  fa-plus nav-icon"></i>
+              <p>
+                Satış
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="content-wrapper">
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+
+    
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                  </div>
+      </div>
+        </div>
+    </div>
+            </form>
+
+  <aside class="control-sidebar control-sidebar-dark">
+  </aside>
+        <footer class="main-footer">
+    <div class="float-right d-none d-sm-inline-block">
+    </div>
+  </footer>
+</div>
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="dist/js/adminlte.js"></script>
+<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="dist/js/demo.js"></script>
+<script src="dist/js/pages/dashboard3.js"></script>
+
+</body>
+</html>
+
+

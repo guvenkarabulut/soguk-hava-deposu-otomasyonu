@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SogukHavaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="calisanTablo">
+    <Key>
+      <PropertyRef Name="calisanID" />
+    </Key>
+    <Property Name="calisanID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="calisanAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanTCNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanTel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanDogumTarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanCinsiyet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanPozisyon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanEgitimDurumu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanIl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanIlce" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanAdres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aktifMi" Type="Boolean" />
+    <NavigationProperty Name="arac" Relationship="SogukHavaModel.FK_arac_calisanTablo" FromRole="calisanTablo" ToRole="arac" />
+  </EntityType>
+  <EntityType Name="kullanici">
+    <Key>
+      <PropertyRef Name="kullaniciID" />
+    </Key>
+    <Property Name="kullaniciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kullaniciAdi" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="kullaniciSifre" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="stokGiris">
+    <Key>
+      <PropertyRef Name="stokGirisID" />
+    </Key>
+    <Property Name="stokGirisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stokAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="stokMiktarı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="stokBirim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="stokGirisTarihi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="stokUrunKodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aktifMi" Type="Boolean" />
+    <NavigationProperty Name="siparis" Relationship="SogukHavaModel.FK_siparis_stokGiris" FromRole="stokGiris" ToRole="siparis" />
+    <Property Name="fiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="SogukHavaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="calisanTablo" EntityType="Self.calisanTablo" />
+    <EntitySet Name="kullanici" EntityType="Self.kullanici" />
+    <EntitySet Name="stokGiris" EntityType="Self.stokGiris" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="arac" EntityType="SogukHavaModel.arac" />
+    <AssociationSet Name="FK_arac_calisanTablo" Association="SogukHavaModel.FK_arac_calisanTablo">
+      <End Role="calisanTablo" EntitySet="calisanTablo" />
+      <End Role="arac" EntitySet="arac" />
+    </AssociationSet>
+    <EntitySet Name="musteri" EntityType="SogukHavaModel.musteri" />
+    <EntitySet Name="siparis" EntityType="SogukHavaModel.siparis" />
+    <AssociationSet Name="FK_siparis_arac" Association="SogukHavaModel.FK_siparis_arac">
+      <End Role="arac" EntitySet="arac" />
+      <End Role="siparis" EntitySet="siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_musteri" Association="SogukHavaModel.FK_siparis_musteri">
+      <End Role="musteri" EntitySet="musteri" />
+      <End Role="siparis" EntitySet="siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_stokGiris" Association="SogukHavaModel.FK_siparis_stokGiris">
+      <End Role="stokGiris" EntitySet="stokGiris" />
+      <End Role="siparis" EntitySet="siparis" />
+    </AssociationSet>
+    <EntitySet Name="anaStok" EntityType="SogukHavaModel.anaStok" />
+    <EntitySet Name="satis" EntityType="SogukHavaModel.satis" />
+  </EntityContainer>
+  <EntityType Name="arac">
+    <Key>
+      <PropertyRef Name="aracNo" />
+    </Key>
+    <Property Name="aracNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="aracPlaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="durumu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracMarka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracModel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracKapasiteTon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracKapasiteKg" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracKapasiteKasa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="calisanNo" Type="Int32" />
+    <NavigationProperty Name="calisanTablo" Relationship="SogukHavaModel.FK_arac_calisanTablo" FromRole="arac" ToRole="calisanTablo" />
+    <NavigationProperty Name="siparis" Relationship="SogukHavaModel.FK_siparis_arac" FromRole="arac" ToRole="siparis" />
+  </EntityType>
+  <Association Name="FK_arac_calisanTablo">
+    <End Type="SogukHavaModel.calisanTablo" Role="calisanTablo" Multiplicity="0..1" />
+    <End Type="SogukHavaModel.arac" Role="arac" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="calisanTablo">
+        <PropertyRef Name="calisanID" />
+      </Principal>
+      <Dependent Role="arac">
+        <PropertyRef Name="calisanNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="musteri">
+    <Key>
+      <PropertyRef Name="musteriID" />
+    </Key>
+    <Property Name="musteriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="musteriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="musteriSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="musteriTC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="musteriCepTel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="musteriEPosta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="musterikayitTarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="musteriSilmeTarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aktifMi" Type="Boolean" />
+    <Property Name="musteriCinsiyet" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="siparis" Relationship="SogukHavaModel.FK_siparis_musteri" FromRole="musteri" ToRole="siparis" />
+  </EntityType>
+  <EntityType Name="siparis">
+    <Key>
+      <PropertyRef Name="siparisNo" />
+    </Key>
+    <Property Name="siparisNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="aracNo" Type="Int32" />
+    <Property Name="musteriNo" Type="Int32" />
+    <Property Name="stokNo" Type="Int32" />
+    <Property Name="siparisTarih" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="arac" Relationship="SogukHavaModel.FK_siparis_arac" FromRole="siparis" ToRole="arac" />
+    <NavigationProperty Name="musteri" Relationship="SogukHavaModel.FK_siparis_musteri" FromRole="siparis" ToRole="musteri" />
+    <NavigationProperty Name="stokGiris" Relationship="SogukHavaModel.FK_siparis_stokGiris" FromRole="siparis" ToRole="stokGiris" />
+    <Property Name="siparisss" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_siparis_arac">
+    <End Type="SogukHavaModel.arac" Role="arac" Multiplicity="0..1" />
+    <End Type="SogukHavaModel.siparis" Role="siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="arac">
+        <PropertyRef Name="aracNo" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="aracNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_musteri">
+    <End Type="SogukHavaModel.musteri" Role="musteri" Multiplicity="0..1" />
+    <End Type="SogukHavaModel.siparis" Role="siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteri">
+        <PropertyRef Name="musteriID" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="musteriNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_stokGiris">
+    <End Type="SogukHavaModel.stokGiris" Role="stokGiris" Multiplicity="0..1" />
+    <End Type="SogukHavaModel.siparis" Role="siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stokGiris">
+        <PropertyRef Name="stokGirisID" />
+      </Principal>
+      <Dependent Role="siparis">
+        <PropertyRef Name="stokNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="anaStok">
+    <Key>
+      <PropertyRef Name="anaStokID" />
+    </Key>
+    <Property Name="anaStokID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="anaStokAD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="anaStokMiktar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="anaStokBirimFiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="anaStokKodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="satis">
+    <Key>
+      <PropertyRef Name="satisID" />
+    </Key>
+    <Property Name="satisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="satisUrunAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="satisUrunKodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="satisMiktar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="satisBirimFiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="satisToplamFiyat" Type="String" FixedLength="false" Unicode="true" MaxLength="50" />
+    <Property Name="satisTarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
